@@ -1,0 +1,17 @@
+--- UniConvertor-1.0.0/setup.py.orig	2007-11-12 14:44:05.000000000 +0100
++++ UniConvertor-1.0.0/setup.py	2007-12-15 12:17:29.018672632 +0100
+@@ -147,10 +147,10 @@
+ 			'uniconvertor.app.modules': 'src/app/modules',
+ 			},
+ 			
+-			package_data={'uniconvertor.app': ['VERSION','modules/*.*'],			
+-			'uniconvertor.app.plugins': ['Filters/*.py'],
+-			'uniconvertor': ['GNU_GPL_v2', 'GNU_LGPL_v2', 'COPYRIGHTS',
+-						 'share/icc/*.*', 'share/fonts/*.*', 'share/ps_templates/*.*'], 
++			package_data={'uniconvertor.app': ['VERSION'],			
++			'uniconvertor.app.plugins': ['Filters/*.py', 'Filters/Lib/*.py'],
++			'uniconvertor': [
++						 'share/icc/*.*', 'share/ps_templates/*.*'], 
+ 			},
+ 
+ 			scripts=['src/uniconv'],
