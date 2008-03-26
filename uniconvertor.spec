@@ -1,12 +1,12 @@
 Summary:	vector graphics translator
 Summary(pl.UTF-8):	Konwerter grafiki wektorowej
 Name:		uniconvertor
-Version:	1.0.0
+Version:	1.1.1
 Release:	1
 License:	LGPL v2+, some plugins GPL v2+ (CCX, CDR)
 Group:		Applications/Graphics
-Source0:	http://sk1project.org/downloads/uniconvertor/%{name}-%{version}.tar.gz
-# Source0-md5:	e334c28f42820784d6a9445173e082a0
+Source0:	http://dl.sourceforge.net/uniconvertor/%{name}-%{version}.tar.gz
+# Source0-md5:	5200180c71709e68c0309d1bad5d86b8
 Patch0:		%{name}-install.patch
 URL:		http://sk1project.org/modules.php?name=Products&product=uniconvertor
 BuildRequires:	python-devel >= 1:2.5
